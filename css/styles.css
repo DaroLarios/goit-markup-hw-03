@@ -10,12 +10,26 @@
   --color-info-down: rgba(255, 255, 255, 0.6);
 }
 
+.container {
+  width: 1200px;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin: 0 auto;
+}
+
+.sections{
+  margin: 0 auto;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 body {
   font-family: Roboto, sans-serif;
   font-size: 14px;
   color: var(--color-uno);
   background-color: var(--color-tres);
   letter-spacing: 0.03em;
+  margin: 0%;
 }
 
 /*header*/
