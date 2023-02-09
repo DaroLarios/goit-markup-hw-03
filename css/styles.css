@@ -11,10 +11,9 @@
 }
 
 .container {
-  width: 1600px;
-  margin-left: 15px;
-  margin-right: 15px;
-  margin: 0 auto;
+  width: 1200px;
+  margin-left: auto;
+  margin-right:auto;
 }
 
 .sections {
@@ -34,7 +33,10 @@
 
 nav {
   display: flex;
-  padding-left: 15px;
+  padding: 24px;
+  justify-content: space-between;
+  align-items: center;
+
 }
 
 body {
@@ -208,6 +210,15 @@ body {
 /* a que nos dedicamos */
 
 .principales-caracteristicas {
+  padding: 0px;
+  margin: 0 auto;
+}
+
+.principales-caracteristicas ul{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0px;
 }
 
 .dedicamos-team {
@@ -216,20 +227,69 @@ body {
   font-weight: 700;
   line-height: 1.1;
   text-align: center;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.tittle-h2 {
-  font-size: 36px;
+.list-style-dedicamos{
+  list-style-type: none;
+  display: flex;
+  padding-bottom: 94px;
+  justify-content: space-between;
+
 }
+
+.tittle-h2-dedicamos {
+  font-size: 36px;
+  margin: auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.teclado{
+  width: 373.16px;
+  height: 323.7px;
+  
+}
+
+.laptop{
+width: 373.16px;
+  height: 323.7px;
+}
+
+.tablet{
+width: 373.16px;
+  height: 323.7px;
+
+}
+
+
+.tittle-h2-team {
+  font-size: 36px;
+  margin: auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
 
 .caracteristicas {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--color-dos);
+  margin-right: 30px;
+  margin: 0 auto;
 }
+
 .habilidades {
   line-height: 1.71;
   color: var(--color-uno);
+  width: 270px;
+  margin: auto;
 }
 
 /* Nuestro equipo de trabajo*/
@@ -243,7 +303,10 @@ body {
   font-size: 16px;
   color: var(--color-uno);
   font-weight: 400;
+  margin: auto;
+  text-align: center;
 }
+
 .bg-team {
   font-style: normal;
   line-height: 1.18;

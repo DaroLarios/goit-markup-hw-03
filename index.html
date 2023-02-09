@@ -1,144 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>goit-markup-hw-03</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css"
+      integrity="sha512-Y0MM+V6ymRKN2zStTqzQ227DWhhp4Mzdo6gnlRnuaNCbc+YN/ZH0sBCLTM4M0oSy9c9VKiCvd4Jk44aCLrNS5Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>goit-markup-hw-03</title>
-  <link rel="stylesheet" href="css/styles.css" />
-  <link rel="stylesheet" href="css/modern-normalize.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet" />
-</head>
+  <body>
+    <div class="container">
+      <header class="cabecera">
+        <a class="title-web-studio" href="#">Web estudio</a>
+        <nav>
+          <ul class="list-style">
+            <li><a class="link-menu current" href="index.html">Estudio</a></li>
+            <li>
+              <a class="link-menu" href="portafolio.html">Portafolio</a>
+            </li>
+            <li><a class="link-menu" href="#">Contactos</a></li>
+          </ul>
+        </nav>
 
-<body>
-  <div class="container">
-    <header class="cabecera">
-      <a class="title-web-studio" href="#">Web estudio</a>
-      <nav>
-        <ul class="list-style">
-          <li><a class="link-menu current" href="index.html">Estudio</a></li>
+        <ul class="list-contacto">
           <li>
-            <a class="link-menu" href="portafolio.html">Portafolio</a>
-          </li>
-          <li><a class="link-menu" href="#">Contactos</a></li>
-        </ul>
-      </nav>
-
-      <ul class="list-contacto">
-        <li>
-          <a class="link-menu-studio-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        </li>
-        <li>
-          <a class="link-menu-studio-tel" href="tel:+525555296000">+525555296000</a>
-        </li>
-      </ul>
-    </header>
-    <main>
-      <section class="solutions">
-        <h1 class="tittle">Soluciones eficaces para su negocio</h1>
-        <button class="button-service" type="button">
-          Solicite nuestro servicio
-        </button>
-      </section>
-
-      <div class="sections">
-        <section class="principales-caracteristicas">
-          <h2 hidden>Características</h2>
-          <ul class="list-style">
-            <li>
-              <h3 class="caracteristicas">Atención a los detalles</h3>
-              <p class="habilidades">
-                Nos adentramos en todos los detalles y procesos de su negocio,
-                para así desarrollar una solución a su medida.
-              </p>
-            </li>
-            <li>
-              <h3 class="caracteristicas">Puntualidad</h3>
-              <p class="habilidades">
-                Con nosotros, usted puede sentirse seguro y protegido. Un
-                principio importante de la empresa: respetar su tiempo y
-                respetar los plazos acordados.
-              </p>
-            </li>
-            <li>
-              <h3 class="caracteristicas">Planificación</h3>
-              <p class="habilidades">
-                Usted podrá observar y participar en cada fase del desarrollo
-                y aplicación de soluciones
-              </p>
-            </li>
-            <li>
-              <h3 class="caracteristicas">Tecnología moderna</h3>
-              <p class="habilidades">
-                Usamos herramientas innovadoras para resolver las tareas
-                asignadas. Es hora de simplificar los procesos laborales.
-              </p>
-            </li>
-          </ul>
-        </section>
-
-        <section class="dedicamos-team">
-          <h2 class="tittle-h2">A qué nos dedicamos</h2>
-          <ul class="list-style">
-            <li>
-              <img class="teclado" src="images/teclado.jpg" alt="teclado" width="300" height="300" />
-            </li>
-            <li>
-              <img class="laptop" src="images/laptop.jpg" alt="laptop" width="300" height="300" />
-            </li>
-            <li>
-              <img class="tablet" src="images/tablet.jpg" alt="tablet" width="300" height="300" />
-            </li>
-          </ul>
-        </section>
-        <section class="dedicamos-team bg-team">
-          <h2 class="tittle-h2">Nuestro Equipo</h2>
-          <ul class="list-style">
-            <li class="andres">
-              <img src="images/andrescubo.jpg" alt="Andrés Cubo" width="260" height="270" />
-              <h3 class="colaboradores">Andrés Cubo</h3>
-              <p class="profesion">Diseñador de Productos</p>
-            </li>
-
-            <li class="carla">
-              <img src="images/carlapalacios.jpg" alt="Carla Palacios" width="260" height="270" />
-              <h3 class="colaboradores">Carla Palacios</h3>
-              <p class="profesion">Desarrolladora Frontend</p>
-            </li>
-            <li class="mario">
-              <img src="images/mariodorado.jpg" alt="Mario Dorado" width="260" height="270" />
-              <h3 class="colaboradores">Mario Dorado</h3>
-              <p class="profesion">Marketing</p>
-            </li>
-            <li class="pablo">
-              <img src="images/pablomijangos.jpg" alt="Pablo Mijangos" width="260" height="270" />
-              <h3 class="colaboradores">Pablo Mijangos</h3>
-              <p class="profesion">Diseñador IU</p>
-            </li>
-          </ul>
-        </section>
-      </div>
-    </main>
-    <footer class="bg-footer">
-      <a class="title-web-studio" href="">WebStudio</a>
-      <address>
-        <ul class="list-style info">
-          <li>
-            <a class="link-button address" href="https://goo.gl/maps/ntQ56XA3maYyzvu46">Calz. Ticomán 500, Ciudad de
-              México, CDMX, México</a>
+            <a class="link-menu-studio-mail" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a class="link-button mail-tel-down" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li>
-            <a class="link-button mail-tel-down" href="tel:+525555296000">+525555296000</a>
+            <a class="link-menu-studio-tel" href="tel:+525555296000"
+              >+525555296000</a
+            >
           </li>
         </ul>
-      </address>
-    </footer>
-  </div>
-</body>
+      </header>
+      <main>
+        <section class="solutions">
+          <h1 class="tittle">Soluciones eficaces para su negocio</h1>
+          <button class="button-service" type="button">
+            Solicite nuestro servicio
+          </button>
+        </section>
 
+        <div class="sections">
+          <section class="principales-caracteristicas">
+            <h2 hidden>Características</h2>
+            <ul class="list-style">
+              <li>
+                <h3 class="caracteristicas">Atención a los detalles</h3>
+                <p class="habilidades">
+                  Nos adentramos en todos los detalles y procesos de su negocio,
+                  para así desarrollar una solución a su medida.
+                </p>
+              </li>
+              <li>
+                <h3 class="caracteristicas">Puntualidad</h3>
+                <p class="habilidades">
+                  Con nosotros, usted puede sentirse seguro y protegido. Un
+                  principio importante de la empresa: respetar su tiempo y
+                  respetar los plazos acordados.
+                </p>
+              </li>
+              <li>
+                <h3 class="caracteristicas">Planificación</h3>
+                <p class="habilidades">
+                  Usted podrá observar y participar en cada fase del desarrollo
+                  y aplicación de soluciones
+                </p>
+              </li>
+              <li>
+                <h3 class="caracteristicas">Tecnología moderna</h3>
+                <p class="habilidades">
+                  Usamos herramientas innovadoras para resolver las tareas
+                  asignadas. Es hora de simplificar los procesos laborales.
+                </p>
+              </li>
+            </ul>
+          </section>
+
+          <section class="dedicamos-team">
+            <h2 class="tittle-h2-dedicamos">A qué nos dedicamos</h2>
+            <ul class="list-style-dedicamos">
+              <li>
+                <img
+                  class="teclado"
+                  src="images/teclado.jpg"
+                  alt="teclado"
+                  width="373.16"
+                  height="323.7"
+                />
+              </li>
+              <li>
+                <img
+                  class="laptop"
+                  src="images/laptop.jpg"
+                  alt="laptop"
+                  width="373.16"
+                  height="323.7"
+                />
+              </li>
+              <li>
+                <img
+                  class="tablet"
+                  src="images/tablet.jpg"
+                  alt="tablet"
+                  width="373.16"
+                  height="323.7"
+                />
+              </li>
+            </ul>
+          </section>
+          <section class="dedicamos-team bg-team">
+            <h2 class="tittle-h2-team">Nuestro Equipo</h2>
+            <ul class="list-style">
+              <li class="andres">
+                <img
+                  src="images/andrescubo.jpg"
+                  alt="Andrés Cubo"
+                  width="260"
+                  height="270"
+                />
+                <h3 class="colaboradores">Andrés Cubo</h3>
+                <p class="profesion">Diseñador de Productos</p>
+              </li>
+
+              <li class="carla">
+                <img
+                  src="images/carlapalacios.jpg"
+                  alt="Carla Palacios"
+                  width="260"
+                  height="270"
+                />
+                <h3 class="colaboradores">Carla Palacios</h3>
+                <p class="profesion">Desarrolladora Frontend</p>
+              </li>
+              <li class="mario">
+                <img
+                  src="images/mariodorado.jpg"
+                  alt="Mario Dorado"
+                  width="260"
+                  height="270"
+                />
+                <h3 class="colaboradores">Mario Dorado</h3>
+                <p class="profesion">Marketing</p>
+              </li>
+              <li class="pablo">
+                <img
+                  src="images/pablomijangos.jpg"
+                  alt="Pablo Mijangos"
+                  width="260"
+                  height="270"
+                />
+                <h3 class="colaboradores">Pablo Mijangos</h3>
+                <p class="profesion">Diseñador IU</p>
+              </li>
+            </ul>
+          </section>
+        </div>
+      </main>
+      <footer class="bg-footer">
+        <a class="title-web-studio" href="">WebStudio</a>
+        <address>
+          <ul class="list-style info">
+            <li>
+              <a
+                class="link-button address"
+                href="https://goo.gl/maps/ntQ56XA3maYyzvu46"
+                >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
+              >
+            </li>
+            <li>
+              <a
+                class="link-button mail-tel-down"
+                href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="link-button mail-tel-down" href="tel:+525555296000"
+                >+525555296000</a
+              >
+            </li>
+          </ul>
+        </address>
+      </footer>
+    </div>
+  </body>
 </html>
