@@ -13,7 +13,7 @@
 .container {
   width: 1200px;
   margin-left: auto;
-  margin-right:auto;
+  margin-right: auto;
 }
 
 .sections {
@@ -33,10 +33,13 @@
 
 nav {
   display: flex;
-  padding: 24px;
   justify-content: space-between;
   align-items: center;
-
+  width: 281px;
+  height: 16px;
+  left: 453px;
+  top: 32px;
+  padding-top: 32px;
 }
 
 body {
@@ -56,9 +59,11 @@ body {
   line-height: 1.19;
   text-decoration: none;
   color: var(--color-webstudio);
-  margin-left: 215px;
-  margin-top: 24px;
   margin: auto;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
 }
 
 .link-menu,
@@ -94,9 +99,11 @@ body {
   display: flex;
   list-style: none;
   margin: auto;
-  padding: 0px;
   padding-left: 290px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 .list-contacto a {
   text-decoration: none;
   font-style: normal;
@@ -106,7 +113,10 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-uno);
   margin-right: 50px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
+
 .link-menu-studio-mail {
   font-family: 'Roboto';
   font-style: normal;
@@ -214,13 +224,6 @@ body {
   margin: 0 auto;
 }
 
-.principales-caracteristicas ul{
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  padding: 0px;
-}
-
 .dedicamos-team {
   color: var(--color-dos);
   font-style: normal;
@@ -236,12 +239,11 @@ body {
   padding-bottom: 94px;
 }
 
-.list-style-dedicamos{
+.list-style-dedicamos {
   list-style-type: none;
   display: flex;
   padding-bottom: 94px;
   justify-content: space-between;
-
 }
 
 .tittle-h2-dedicamos {
@@ -251,23 +253,22 @@ body {
   text-align: center;
 }
 
-.teclado{
-  width: 373.16px;
+.teclado {
+  width: 350px;
   height: 323.7px;
-  
+  margin-right: 30.2px;
 }
 
-.laptop{
-width: 373.16px;
+.laptop {
+  width: 350px;
   height: 323.7px;
+  margin-right: 23.42px;
 }
 
-.tablet{
-width: 373.16px;
+.tablet {
+  width: 350px;
   height: 323.7px;
-
 }
-
 
 .tittle-h2-team {
   font-size: 36px;
@@ -276,13 +277,23 @@ width: 373.16px;
   text-align: center;
 }
 
-
 .caracteristicas {
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--color-dos);
   margin-right: 30px;
   margin: 0 auto;
+}
+
+.list-style-valores {
+  width: 1180px;
+  height: 122px;
+  left: 205px;
+  top: 775px;
+  display: flex;
+  list-style-type: none;
+  margin: auto;
+  justify-content: space-between;
 }
 
 .habilidades {
@@ -293,12 +304,59 @@ width: 373.16px;
 }
 
 /* Nuestro equipo de trabajo*/
+.list-style-trabajadores {
+  list-style-type: none;
+  display: flex;
+  margin: auto;
+  padding: 0px;
+}
 
 .colaboradores {
   font-size: 16px;
   color: var(--color-dos);
   font-weight: 500;
 }
+.andres {
+  width: 270px;
+  height: 368px;
+  left: 208px;
+  top: 1696px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.carla {
+  width: 270px;
+  height: 368px;
+  left: 515px;
+  top: 1696px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.mario {
+  width: 270px;
+  height: 368px;
+  left: 822px;
+  top: 1696px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.pablo {
+  width: 270px;
+  height: 368px;
+  left: 1115px;
+  top: 1696px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
 .profesion {
   font-size: 16px;
   color: var(--color-uno);
@@ -311,6 +369,11 @@ width: 373.16px;
   font-style: normal;
   line-height: 1.18;
   background: var(--color-cuatro);
+
+  width: 1200px;
+  height: 648px;
+  left: 0px;
+  top: 1510px;
 }
 
 /* Filtros proyectos */
@@ -383,22 +446,77 @@ width: 373.16px;
 
 .bg-footer {
   background: var(--color-background);
+  width: 1200px;
+  height: 252px;
+  left: 0px;
+  top: 2158px;
+  padding-left: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
+.title-web-studio-footer {
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--color-webstudio);
+  margin: auto;
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+}
 .info {
   font-family: 'Roboto';
   font-style: normal;
   line-height: 1.71;
+  padding: 0%;
+  width: 231px;
+  height: 92px;
 }
-.address {
+
+.list-style-info {
+  list-style: none;
+  font-style: normal;
+  padding: 0%;
+  width: 231px;
+  height: 92px;
+}
+
+.link-button-address {
+  width: 231px;
+  height: 21px;
+  left: 215px;
+  top: 2258px;
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
   color: var(--color-tres);
 }
 
 .mail-tel-down {
-  color: var(--color-info-down);
+  width: 231px;
+  height: 24px;
+  left: 215px;
+  top: 2329px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 /**/
+.link-button-address:hover,
+:focus {
+  color: var(--color-webstudio);
+  cursor: pointer;
+}
 
 .link-button:hover,
 :focus {
@@ -408,4 +526,12 @@ width: 373.16px;
 
 .link-button {
   text-decoration: none;
+}
+
+footer {
+  min-width: 250;
+  /* height: 252px; */
+  padding-left: 15px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
