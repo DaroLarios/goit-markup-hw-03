@@ -306,9 +306,10 @@ body {
 /* Nuestro equipo de trabajo*/
 .list-style-trabajadores {
   list-style-type: none;
+  flex-grow: 1;
+  margin: 10px;
   display: flex;
-  margin: auto;
-  padding: 0px;
+  padding: 24px;
 }
 
 .colaboradores {
@@ -377,58 +378,6 @@ body {
 }
 
 /* Filtros proyectos */
-
-.button-project {
-  font-family: roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.6;
-  text-align: center;
-  color: var(--color-dos);
-  background: var(--color-cuatro);
-  border-radius: 4px;
-  border-color: var(--color-cuatro);
-  cursor: pointer;
-}
-
-.button-project:hover,
-.button-project:focus {
-  background-color: var(--color-webstudio);
-  color: var(--color-tres);
-}
-
-.button-project.current {
-  font-style: normal;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.62;
-  color: var(--color-dos);
-  text-align: center;
-  background: var(--color-cuatro);
-  border-radius: 4px;
-  border-color: var(--color-cuatro);
-  cursor: pointer;
-}
-.button-project.current {
-  background-color: var(--color-webstudio);
-  color: var(--color-tres);
-}
-.button-project.current:hover,
-.button-project.current:focus {
-  background-color: var(--color-webstudio);
-  color: var(--color-tres);
-}
-/* proyectos portafolio*/
-.name-project {
-  font-family: 'Roboto';
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--color-dos);
-  font-style: normal;
-  font-weight: 700;
-}
 
 .text-p {
   font-style: normal;
@@ -534,4 +483,106 @@ footer {
   padding-left: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+/*-----portafolio------*/
+
+.bg-portafolio {
+  width: 1170px;
+  height: 1360px;
+  left: 215px;
+  top: 186px;
+}
+
+.list-style-proyectos {
+  margin: 0 auto;
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.list-style-button {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--color-dos);
+  background: var(--color-cuatro);
+  border-radius: 4px;
+  border-color: var(--color-cuatro);
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  padding: 0px;
+  padding-bottom: 50px;
+}
+
+.imagenes-proyectos {
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eeeeee;
+  border-bottom: 3px solid #eeeeee;
+  padding: 30px;
+  align-items: center;
+}
+.button-project {
+  font-family: roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  color: var(--color-dos);
+  background: var(--color-cuatro);
+  border-radius: 4px;
+  border-color: var(--color-cuatro);
+  cursor: pointer;
+}
+
+.button-project:hover,
+.button-project:focus {
+  background-color: var(--color-webstudio);
+  color: var(--color-tres);
+}
+
+.button-project.current {
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  color: var(--color-dos);
+  text-align: center;
+  background: var(--color-cuatro);
+  border-radius: 4px;
+  border-color: var(--color-cuatro);
+  cursor: pointer;
+}
+.button-project.current {
+  background-color: var(--color-webstudio);
+  color: var(--color-tres);
+}
+.button-project.current:hover,
+.button-project.current:focus {
+  background-color: var(--color-webstudio);
+  color: var(--color-tres);
+}
+/* proyectos portafolio*/
+.name-project {
+  font-family: 'Roboto';
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--color-dos);
+  font-style: normal;
+  font-weight: 700;
 }
