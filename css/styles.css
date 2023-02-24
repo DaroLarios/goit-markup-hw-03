@@ -224,26 +224,42 @@ body {
   margin: 0 auto;
 }
 
+.dedicamos-team-img {
+  width: 1173.16px;
+  height: 425px;
+  color: var(--color-dos);
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.1;
+  text-align: center;
+  padding-top: 94px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 94px;
+}
 .dedicamos-team {
   color: var(--color-dos);
   font-style: normal;
   font-weight: 700;
   line-height: 1.1;
   text-align: center;
-
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  margin: auto;
-  padding-top: 94px;
-  padding-bottom: 94px;
+  justify-content: space-between;
+  margin-top: 188px;
+  margin-bottom: 0;
 }
 
 .list-style-dedicamos {
   list-style-type: none;
   display: flex;
-  padding-bottom: 94px;
-  justify-content: space-between;
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  width: 1200px;
+  height: 648px;
 }
 
 .tittle-h2-dedicamos {
@@ -254,26 +270,18 @@ body {
 }
 
 .teclado {
-  width: 350px;
-  height: 323.7px;
   margin-right: 30.2px;
 }
 
 .laptop {
-  width: 350px;
-  height: 323.7px;
   margin-right: 23.42px;
-}
-
-.tablet {
-  width: 350px;
-  height: 323.7px;
 }
 
 .tittle-h2-team {
   font-size: 36px;
   margin: auto;
-  padding-bottom: 50px;
+  padding-top: 94px;
+  padding-bottom: 55px;
   text-align: center;
 }
 
@@ -307,16 +315,23 @@ body {
 .list-style-trabajadores {
   list-style-type: none;
   flex-grow: 1;
-  margin: 10px;
+  margin: 0px;
   display: flex;
-  padding: 24px;
+  padding: 0px;
+  justify-content: space-between;
+  margin-bottom: 0px;
+  padding-bottom: 94px;
 }
 
 .colaboradores {
   font-size: 16px;
   color: var(--color-dos);
   font-weight: 500;
+  line-height: 1.18;
+  font-style: normal;
+  text-align: center;
 }
+
 .andres {
   width: 270px;
   height: 368px;
@@ -362,19 +377,21 @@ body {
   font-size: 16px;
   color: var(--color-uno);
   font-weight: 400;
+  line-height: 1.18;
   margin: auto;
   text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .bg-team {
   font-style: normal;
   line-height: 1.18;
   background: var(--color-cuatro);
-
   width: 1200px;
   height: 648px;
   left: 0px;
   top: 1510px;
+  margin-bottom: 0px;
 }
 
 /* Filtros proyectos */
@@ -392,17 +409,6 @@ body {
 }
 
 /*Footer*/
-
-.bg-footer {
-  background: var(--color-background);
-  width: 1200px;
-  height: 252px;
-  left: 0px;
-  top: 2158px;
-  padding-left: 15px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
 
 .title-web-studio-footer {
   font-family: 'Raleway';
@@ -478,29 +484,19 @@ body {
 }
 
 footer {
-  min-width: 250;
-  /* height: 252px; */
   padding-left: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
+  background: var(--color-background);
+  width: 1200px;
+  height: 252px;
+  margin-top: -94px;
 }
 
 /*-----portafolio------*/
 
 .bg-portafolio {
-  width: 1170px;
-  height: 1360px;
-  left: 215px;
-  top: 186px;
-}
-
-.list-style-proyectos {
-  margin: 0 auto;
-  padding: 0px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  list-style: none;
+  padding-bottom: 82px;
 }
 
 .list-style-button {
@@ -511,7 +507,6 @@ footer {
   line-height: 1.6;
   text-align: center;
   color: var(--color-dos);
-  background: var(--color-cuatro);
   border-radius: 4px;
   border-color: var(--color-cuatro);
   cursor: pointer;
@@ -520,21 +515,9 @@ footer {
   align-items: center;
   justify-content: center;
   margin: auto;
-  padding: 0px;
   padding-bottom: 50px;
 }
 
-.imagenes-proyectos {
-  background: #ffffff;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-  width: 370px;
-  height: 404px;
-  border: 1px solid #eeeeee;
-  border-bottom: 3px solid #eeeeee;
-  padding: 30px;
-  align-items: center;
-}
 .button-project {
   font-family: roboto;
   font-style: normal;
@@ -547,6 +530,48 @@ footer {
   border-radius: 4px;
   border-color: var(--color-cuatro);
   cursor: pointer;
+}
+
+.list-style-proyectos {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+.imagenes-proyectos {
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  border: 1px solid #eeeeee;
+  border-bottom: 3px solid #eeeeee;
+  width: 370px;
+  height: 404px;
+  margin-bottom: 30px;
+}
+
+.name-project {
+  font-family: 'Roboto';
+  margin-left: 24px;
+  margin-right: 24px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: var(--color-dos);
+  letter-spacing: 0.06em;
+}
+
+.text-p {
+  margin-left: 24px;
+  margin-right: 24px;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--color-uno);
 }
 
 .button-project:hover,
@@ -575,14 +600,4 @@ footer {
 .button-project.current:focus {
   background-color: var(--color-webstudio);
   color: var(--color-tres);
-}
-/* proyectos portafolio*/
-.name-project {
-  font-family: 'Roboto';
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--color-dos);
-  font-style: normal;
-  font-weight: 700;
 }
