@@ -540,6 +540,7 @@ footer {
   margin: 0;
   padding: 0;
   cursor: pointer;
+  padding-bottom: 88px;
 }
 
 .imagenes-proyectos {
