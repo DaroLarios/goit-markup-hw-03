@@ -10,36 +10,40 @@
   --color-info-down: rgba(255, 255, 255, 0.6);
 }
 
-.container {
-  width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.sections {
-  margin: 0 auto;
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+section {
   padding-bottom: 94px;
   padding-top: 94px;
 }
 
 .cabecera {
   display: flex;
-  height: 80px;
-  margin-left: 0px;
-  margin-top: 0px;
-  border-bottom: 1px solid #ececec;
   background: var(--color-tres);
 }
 
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 281px;
-  height: 16px;
-  left: 453px;
-  top: 32px;
   padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 body {
@@ -59,11 +63,10 @@ body {
   line-height: 1.19;
   text-decoration: none;
   color: var(--color-webstudio);
+  padding-top: 24px;
+  padding-bottom: 25px;
+  padding-right: 93px;
   margin: auto;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
 }
 
 .link-menu,
@@ -98,10 +101,9 @@ body {
 .list-contacto {
   display: flex;
   list-style: none;
-  margin: auto;
-  padding-left: 290px;
   padding-top: 32px;
   padding-bottom: 32px;
+  align-items: center;
 }
 
 .list-contacto a {
@@ -113,8 +115,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--color-uno);
   margin-right: 50px;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  margin-left: auto;
 }
 
 .link-menu-studio-mail {
@@ -147,7 +148,10 @@ body {
   list-style-type: none;
   display: flex;
   margin-right: 50px;
-  margin-top: 32px;
+}
+
+.list-style:last-child {
+  margin-right: 0;
 }
 
 /*Titulo */
@@ -159,29 +163,21 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--color-tres);
-  width: 696px;
   display: block;
   margin: 0 auto;
-  padding: 0px;
+  margin-top: 200px;
   padding-bottom: 30px;
   text-align: center;
   justify-content: center;
-  height: 120px;
-  left: 448px;
-  top: 280px;
   color: var(--color-tres);
 }
 
 .solutions {
   background: var(--color-background);
   text-align: center;
-  height: 600px;
-  margin-left: -4px;
-  margin-top: 80px;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  margin: auto;
 }
 
 /*Boton Servicio*/
@@ -387,11 +383,6 @@ body {
   font-style: normal;
   line-height: 1.18;
   background: var(--color-cuatro);
-  width: 1200px;
-  height: 648px;
-  left: 0px;
-  top: 1510px;
-  margin-bottom: 0px;
 }
 
 /* Filtros proyectos */
@@ -417,10 +408,6 @@ body {
   text-decoration: none;
   color: var(--color-webstudio);
   margin: auto;
-  width: 145px;
-  height: 31px;
-  left: 215px;
-  top: 24px;
 }
 .info {
   font-family: 'Roboto';
